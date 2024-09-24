@@ -139,3 +139,40 @@ header {
 .produto-recomendado {
   background-color: #FFFFFF;
 }
+
+
+.categorias-carrossel-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.categorias-carrossel {
+  display: flex;
+  overflow: hidden;
+}
+
+.categorias-carrossel img {
+  width: 200px;
+  height: 200px;
+}
+
+.botao-voltar {
+  width: 100px;
+  height: 100px;
+}
+
+.botao-avancar {
+  width: 100px;
+  height: 100px;
+}
+
+.continue-comprando-container {
+  display: flex;
+  align-items: center;
+}
+
+.continue-comprando-carrossel {
+  display: flex;
+  overflow: hidden;
+}
