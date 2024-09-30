@@ -1,26 +1,21 @@
-const botaoVoltar = document.querySelector('.botao-voltar');
-const botaoAvancar = document.querySelector('.botao-avancar');
-const categoriasCarrossel = document.querySelector('.categorias-carrossel');
+function initCarrossel(botaoVoltarSelector, botaoAvancarSelector, carrosselSelector, qtdScroll) {
+  const botaoVoltar = document.querySelector(botaoVoltarSelector);
+  const botaoAvancar = document.querySelector(botaoAvancarSelector);
+  const carrossel = document.querySelector(carrosselSelector);
 
-botaoVoltar.addEventListener('click', (e) => {
-  categoriasCarrossel.scrollLeft -= 200;
-});
+  botaoVoltar.addEventListener('click', () => {
+    carrossel.scrollLeft -= qtdScroll;
+  });
 
-botaoAvancar.addEventListener('click', (e) => {
-  categoriasCarrossel.scrollLeft += 200;
-});
+  botaoAvancar.addEventListener('click', () => {
+    carrossel.scrollLeft += qtdScroll;
+  });
+}
 
+initCarrossel('.botao-voltar', '.botao-avancar', '.categorias-carrossel', 200);
 
-const botaoVoltarCC = document.querySelector('.botao-voltar-cc');
-const botaoAvancarCC = document.querySelector('.botao-avancar-cc');
-const continueComprandoCarrossel = document.querySelector('.continue-comprando-carrossel');
+initCarrossel('.botao-voltar-cc', '.botao-avancar-cc', '.continue-comprando-carrossel', 300);
 
-botaoVoltarCC.addEventListener('click', (e) => {
-  continueComprandoCarrossel.scrollLeft -= 500;
-});
+initCarrossel('.botao-voltar-ic', '.botao-avancar-ic', '.itens-cozinha-carrossel', 300);
 
-botaoAvancarCC.addEventListener('click', (e) => {
-  continueComprandoCarrossel.scrollLeft += 500;
-});
-
-
+initCarrossel('.botao-voltar-mf', '.botao-avancar-mf', '.moda-feminina-carrossel', 300);
