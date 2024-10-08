@@ -4,6 +4,8 @@
 
 .produto-container {
   background-color: white;
+  display: flex;
+  margin: 25px;
 }
 
 
@@ -60,3 +62,64 @@
 .descricao-atributos-produto {
   font-weight: bold;
 }
+
+
+.produto-compra {
+  border: solid 1px;
+  padding: 15px;
+  width: 500px;
+  border-radius: 5px;
+  margin: 25px 20px;
+}
+
+.produto-compra p {
+  margin: 5px 0px;
+}
+
+.preco {
+  display: flex;
+}
+
+.preco h2 {
+  margin: 0px;
+  padding: 0px 2.5px;
+}
+
+.preco p {
+  font-size: small;
+}
+
+.preco-entrega {
+  color: #138800;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.selecionar-cor {
+  display: flex;
+}
+
+.ilustracao-cor-produto {
+  width: 25px;
+  height: 25px;
+}
+
+.estoque-disponivel {
+  color: #138800;
+}
+
+.selecionar-quantidade {
+  display: flex;
+  background-color: #ECECEC;
+}
+
+.data-entrega {
+  display: flex;
+}
+
+.prazo-promocao{
+  display: flex;
+}
+
