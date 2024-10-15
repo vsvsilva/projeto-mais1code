@@ -184,6 +184,7 @@
 
 .avaliacoes-produto {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .avaliacoes-imagens-container h2 {
@@ -208,4 +209,26 @@
 
 .avaliacoes-imagens-carrossel img {
   margin-right: 10px;
+}
+
+.avaliacoes-destaque {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.usuario {
+  display: flex;
+}
+
+.nome-usuario {
+  margin-left: 15px;
+}
+
+.data-avaliacao {
+  margin-top: 0px;
+}
+
+.comentario {
+  margin-left: 20px;
+  margin-bottom: 50px;
 }
