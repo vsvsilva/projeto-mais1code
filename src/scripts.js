@@ -19,3 +19,5 @@ initCarrossel('.botao-voltar-cc', '.botao-avancar-cc', '.continue-comprando-carr
 initCarrossel('.botao-voltar-ic', '.botao-avancar-ic', '.itens-cozinha-carrossel', 300);
 
 initCarrossel('.botao-voltar-mf', '.botao-avancar-mf', '.moda-feminina-carrossel', 300);
+
+initCarrossel('.botao-voltar-pl', '.botao-avancar-pl', '.produtos-loja-carrossel', 300);
