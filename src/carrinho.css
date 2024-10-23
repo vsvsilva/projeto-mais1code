@@ -1,0 +1,106 @@
+header {
+    display: flex;
+    background-color: #D9D9D999;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+main {
+    margin-left: 20px;
+}
+
+.endereco-entrega {
+    display: flex;
+    flex-direction: column;
+    /*border: solid 1px; */
+    padding: 15px;
+    width: 800px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    font-size: small;
+}
+
+.endereco-entrega p {
+    margin: 5px;
+}
+
+.metodo-pagamento {
+    display: flex;
+    align-items: center;
+    /* border: solid 1px; */
+    padding: 15px;
+    width: 800px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    font-size: small;
+}
+
+.pedido {
+    display: flex;
+    align-items: center;
+    /* border: solid 1px; */
+    padding: 15px;
+    width: 800px;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+
+.finalizar-compra-container {
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    padding: 15px;
+    width: 800px;
+    border-radius: 10px;
+    margin: 25px 20px;
+
+}
+
+.finalizar-compra {
+    display: flex;
+    height: 40px;
+    padding: 15px;
+    width: 500px;
+    border-radius: 30px;
+    margin: 25px 20px;
+    background-color: #5E17B966;
+    cursor: pointer;
+}
+
+.finalizar-compra h3 {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-left: 45px;
+    
+    
+}
+
+.total-pedido h4 {
+    display: flex;
+    font-size: 25px;
+    color: #B22A2A;
+    margin: 0px;
+}
+
+.total-pedido p {
+    font-size: 12px;
+}
+
+.alterar p {
+    margin-left: 700px;
+    font-size: small;
+}
+
+.resumo {
+    border: solid 1px;
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px 20px;
+}

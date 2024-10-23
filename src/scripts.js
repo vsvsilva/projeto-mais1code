@@ -32,7 +32,8 @@ async function requisicaoProdutos() {
   const produtos = await resposta.json();
   exibirProdutosRecomendados(produtos);
   exibirContinueComprando(produtos);
-  exibiTecnologia(produtos);
+  exibirItensCozinha(produtos);
+  exibirModaFeminina(produtos);
 }
 
 requisicaoProdutos();
@@ -46,8 +47,9 @@ function exibirProdutosRecomendados(produtos) {
   const produtosRecomendados = produtos.slice(0, 10);
 
   produtosRecomendados.forEach(produto => {
-    const item = document.createElement('div');
+    const item = document.createElement('a');
     item.className = 'produto-recomendado';
+    item.href = 'produto.html?id=' + produto.id;
 
     item.innerHTML = `
     <img src="${produto.imagem}">
@@ -108,20 +110,40 @@ function exibirContinueComprando(produtos) {
 
 }
 
-function exibiTecnologia(produtos){
+function exibirItensCozinha(produtos){
 
-
-  const itensTecnologia = ["Monitor", "Headset", "Carregador", "Controle", "Tablet", "Relógio", "Fone", "Notebook", "Bateria"];
+  const divContinueComprando = document.querySelector('.itens-cozinha-carrossel');
 
   produtos.forEach(produto => {
-    if(itensTecnologia.indexOf(produto.descricao) >-1 ){
-      console.log(produto.descricao);
-    }
+    const item = document.createElement('div');
+    item.className = 'produto-recomendado';
+
+    item.innerHTML = `
+    <img src="${produto.imagem}">
+    <p>${produto.descricao}</p>
+    
+    <div class="avaliacao">
+      <div class="avaliacao-estrelas">
+        <img src="icons/Star-cheia.png">
+        <img src="icons/Star-cheia.png">
+        <img src="icons/Star-cheia.png">
+        <img src="icons/Star-cheia.png">
+        <img src="icons/Star-cheia.png">
+      </div>
+      <p>200</p>
+    </div>
+    <h3>R$ ${produto.preco}</h3>
+    <p>Frete grátis</p>
+    `;
+
+    divContinueComprando.appendChild(item);
+
   });
+}
 
-  const divContinueComprando = document.querySelector('.continue-comprando-carrossel');
+function exibirModaFeminina(produtos){
 
-
+  const divContinueComprando = document.querySelector('.moda-feminina-carrossel');
 
   produtos.forEach(produto => {
     const item = document.createElement('div');
