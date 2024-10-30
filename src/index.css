@@ -1,4 +1,3 @@
-
 .banner-principal {
   background: linear-gradient(rgba(94,23,185, 0.5), #f0f0f0);
 }
@@ -7,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 150px;
 }
 
 .banner-img {
@@ -30,8 +30,8 @@
 }
 
 .menu-banner img {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
 }
 
 .item-menu-banner {
@@ -41,7 +41,7 @@
 }
 
 .item-menu-banner spam {
-  padding: 0 20px 0 20px;
+  padding: 10px 20px 0 20px;
   text-align: center;
 }
 
@@ -54,6 +54,10 @@
   transition: 1s;
 }
 
+.frete-gratis-img {
+  height: 85px !important;
+}
+
 .item-menu-banner:hover {
   transform: scale(1.2);
 }
@@ -64,19 +68,41 @@
 
 .produtos-recomendados {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-template-rows: auto auto;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 16px;
+}
+
+.recomendados-img {
+  width: 200px;
+  height: 200px;
 }
 
 .avaliacao {
   display: flex;
-  align-items: center;
 }
-
-
 
 .produto-recomendado {
   background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.produto-recomendado .descricao {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 40px;
+}
+
+.produto-recomendado p {
+  margin: 10px 5px 5px 5px;
+}
+
+.categorias-titulo {
+  margin-left: 50px;
 }
 
 
@@ -107,6 +133,10 @@
   height: 100px;
 }
 
+.continue-comprando-titulo {
+  margin-left: 50px;
+}
+
 .continue-comprando-container {
   display: flex;
   align-items: center;
@@ -116,6 +146,12 @@
   display: flex;
   overflow: hidden;
   scroll-behavior: smooth;
+  gap: 16px;
+}
+
+.continue-comprando-img {
+  width: 200px;
+  height: 200px;
 }
 
 .itens-cozinha-container {
@@ -143,4 +179,6 @@
 
 .frete-gratis {
   color: green;
+  margin-bottom: 5px;
+  display: inline-block;
 }

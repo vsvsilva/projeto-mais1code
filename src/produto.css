@@ -31,6 +31,34 @@
   height: 50px;
 }
 
+.comprar-agora {
+  background-color: rgba(94, 23, 185, 0.9);
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 40px;
+  padding: 15px;
+  width: 250px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+.adicionar-carrinho {
+  background-color: rgba(94, 23, 185, 0.4);
+  color: #000000;
+  cursor: pointer;
+  height: 40px;
+  padding: 15px;
+  width: 250px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
 
 .avaliacao-produto {
   display: flex;

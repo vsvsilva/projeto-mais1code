@@ -54,3 +54,5 @@ items.forEach(item => {
     console.error('Erro ao criar o produto:', error);
   });
 });
+
+

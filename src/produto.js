@@ -1,12 +1,14 @@
+document.querySelector('.logo').addEventListener('click', (e)=> {
+  window.location.href = 'index.html';
+});
+
+
 function getProdutoId() {
   const params = new URLSearchParams(window.location.search);
   return params.get('id');
 };
 
-
-
 const URL = "https://projeto-backend-mais1code.onrender.com/items/";
-
 
 async function requisicaoProduto() {
   const produtoId = getProdutoId();
@@ -43,8 +45,12 @@ function exibirProduto(produto) {
     const img = document.createElement('img');
     img.src = produto.imagem;
     imagensSecundarias.appendChild(img);
-  }
-
-
-  
+  }  
 }
+
+
+const comprarAgora = document.querySelector('.comprar-agora');
+comprarAgora.addEventListener('click', (e) => {
+  const produtoId = getProdutoId();
+  window.location.href = 'carrinho.html?id=' + produtoId;
+});

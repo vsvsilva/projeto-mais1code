@@ -38,9 +38,17 @@ async function requisicaoProdutos() {
 
 requisicaoProdutos();
 
+async function requisicaoProdutos() {
+  const resposta = await fetch(URL);
+  const produtos = await resposta.json();
+  exibirProdutosRecomendados(produtos);
+  exibirContinueComprando(produtos);
+  exibirItensCozinha(produtos);
+  exibirModaFeminina(produtos);
+}
 
 
-function exibirProdutosRecomendados(produtos) { 
+function exibirProdutosRecomendados(produtos) {
 
   const produtosContainer = document.querySelector('.produtos-recomendados');
 
@@ -52,8 +60,8 @@ function exibirProdutosRecomendados(produtos) {
     item.href = 'produto.html?id=' + produto.id;
 
     item.innerHTML = `
-    <img src="${produto.imagem}">
-    <p>${produto.descricao}</p>
+    <img class="recomendados-img" src="${produto.imagem}">
+    <p class="descricao">${produto.descricao}</p>
     
     <div class="avaliacao">
       <div class="avaliacao-estrelas">
@@ -63,17 +71,14 @@ function exibirProdutosRecomendados(produtos) {
         <img src="icons/Star-cheia.png">
         <img src="icons/Star-cheia.png">
       </div>
-      <p>200</p>
+      <spam>200</spam>
     </div>
     <h3>R$ ${produto.preco}</h3>
-    <p class="frete-gratis">Frete grátis</p>
+    <spam class="frete-gratis">Frete grátis</spam>
 `
     produtosContainer.appendChild(item);
 
   });
-
-
-
 }
 
 
@@ -87,8 +92,8 @@ function exibirContinueComprando(produtos) {
     item.className = 'produto-recomendado';
 
     item.innerHTML = `
-    <img src="${produto.imagem}">
-    <p>${produto.descricao}</p>
+    <img class="continue-comprando-img" src="${produto.imagem}">
+    <p class="descricao">${produto.descricao}</p>
     
     <div class="avaliacao">
       <div class="avaliacao-estrelas">
@@ -101,7 +106,7 @@ function exibirContinueComprando(produtos) {
       <p>200</p>
     </div>
     <h3>R$ ${produto.preco}</h3>
-    <p>Frete grátis</p>
+    <spam class="frete-gratis">Frete grátis</spam>
     `;
 
     divContinueComprando.appendChild(item);
