@@ -122,6 +122,15 @@ header {
 }
 
 
+.footer {
+    padding: 30px;
+}
+
+.logo-rodape {
+    padding-bottom: 50px;
+}
+
+
 /* Estilos para o Modal */
 .modal {
     display: none;
