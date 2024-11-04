@@ -16,7 +16,7 @@ const items = [
   { id: 10, preco: 299.99, cor: "Preto", qtde_estoque: 10, descricao: "Tênis Esportivo confortável", imagem: "./produtos/tenis-esportivo-preto.webp", ativo: true },
   { id: 11, preco: 159.99, cor: "Azul", qtde_estoque: 10, descricao: "Jaqueta Jeans Unissex", imagem: "./produtos/jaqueta-jeans-azul.webp", ativo: true },
   { id: 12, preco: 79.99, cor: "Preto", qtde_estoque: 20, descricao: "Óculos de Sol com proteção UV", imagem: "./produtos/oculos-sol-preto.webp", ativo: true },
-  { id: 13, preco: 39.99, cor: "Cinza", qtde_estoque: 25, descricao: "Boné Estiloso", imagem: "./produtos/bone-cinza.webp", ativo: true },
+  { id: 13, preco: 39.99, cor: "Cinza", qtde_estoque: 25, descricao: "Boné Aba curva", imagem: "./produtos/bone-cinza.webp", ativo: true },
   { id: 14, preco: 109.99, cor: "Azul", qtde_estoque: 18, descricao: "Calça Jeans Slim Fit", imagem: "./produtos/calca-jeans-azul.webp", ativo: true },
   { id: 15, preco: 59.99, cor: "Marrom", qtde_estoque: 30, descricao: "Cinto de Couro Masculino", imagem: "./produtos/cinto-marrom.webp", ativo: true },
   { id: 16, preco: 199.99, cor: "Vermelho", qtde_estoque: 12, descricao: "Bolsa Feminina em Couro", imagem: "./produtos/bolsa-vermelha.jpg", ativo: true },
@@ -28,6 +28,7 @@ const items = [
   { id: 20, preco: 149.99, cor: "Preto", qtde_estoque: 25, descricao: "Mouse Sem Fio de alta precisão", imagem: "./produtos/mouse-semfio-preto.jpeg", ativo: true },
   { id: 21, preco: 1099.99, cor: "Preto", qtde_estoque: 6, descricao: "Tablet com tela de alta resolução", imagem: "./produtos/tablet-cinza.jpeg", ativo: true },
   { id: 22, preco: 2499.99, cor: "Preto", qtde_estoque: 5, descricao: "Smartphone de última geração", imagem: "./produtos/smartphone-preto.webp", ativo: true },
+  
   { id: 23, preco: 129.99, cor: "Branco", qtde_estoque: 22, descricao: "Carregador Portátil de alta capacidade", imagem: "./produtos/carregador-portatil-branco.jpeg", ativo: true },
   { id: 24, preco: 5999.99, cor: "Cinza", qtde_estoque: 3, descricao: "Notebook Gamer de alta performance", imagem: "./produtos/notebook-gamer-cinza.jpeg", ativo: true },
   { id: 25, preco: 299.99, cor: "Branco", qtde_estoque: 20, descricao: "Teclado Mecânico RGB", imagem: "./produtos/teclado-mecanico-branco.jpeg", ativo: true },
@@ -42,6 +43,7 @@ const items = [
   { id: 32, preco: 2499.99, cor: "Preto", qtde_estoque: 4, descricao: "Smart TV 50 polegadas", imagem: "./produtos/smarttv-preto.jpeg", ativo: true },
   { id: 33, preco: 399.99, cor: "Vermelho", qtde_estoque: 8, descricao: "Aspirador de Pó", imagem: "./produtos/aspirador-po-vermelho.jpeg", ativo: true },
   { id: 34, preco: 1999.99, cor: "Cinza", qtde_estoque: 3, descricao: "Secadora de Roupas", imagem: "./produtos/secadora-cinza.jpeg", ativo: true },
+ 
   { id: 35, preco: 799.99, cor: "Branco", qtde_estoque: 10, descricao: "Micro-ondas Digital", imagem: "./produtos/microondas-branco.jpeg", ativo: true },
   { id: 36, preco: 1999.99, cor: "Branco", qtde_estoque: 3, descricao: "Máquina de Lavar", imagem: "./produtos/maquina-lavar-branco.jpeg", ativo: true },
   { id: 37, preco: 1999.99, cor: "Preto", qtde_estoque: 10, descricao: "Freezer Horizontal", imagem: "./produtos/freezer-preto.webp", ativo: true },

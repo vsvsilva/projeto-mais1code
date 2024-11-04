@@ -91,40 +91,50 @@
 
 .parcelas-disponiveis {
   color: #5E17B9;
-  padding-left: 8px;
+  padding-left: 5px;
 }
 
 .atributos-produto {
   display: flex;
 }
 
+.descricao-produto {
+  padding-left: 25px;
+}
+
 .descricao-atributos-produto {
   font-weight: bold;
+}
+
+.cor-produto {
+  padding-left: 5px;
 }
 
 
 .produto-compra {
   border: solid 1px;
   padding: 15px;
-  width: 500px;
+  width: 400px;
   border-radius: 5px;
   margin: 25px 20px;
+  position: relative;
+  right: -1%;
 }
 
 .produto-compra p {
   margin: 5px 0px;
 }
 
-.preco {
+.preco-style {
   display: flex;
 }
 
-.preco h2 {
+.preco-style h2 {
   margin: 0px;
   padding: 0px 2.5px;
 }
 
-.preco p {
+.preco-style p {
   font-size: small;
 }
 
@@ -134,6 +144,7 @@
 
 .negrito {
   font-weight: bold;
+  padding-left: 5px;
 }
 
 .selecionar-cor {
@@ -171,34 +182,60 @@
   display: flex;
   overflow: hidden;
   scroll-behavior: smooth;
+  gap: 16px;
 }
 
-.caracteristicas-produto-container {
-  padding-left: 70px;
-}
-
-.caracteristicas-produto-container h3 {
-  padding-left: 40px;
-}
-
-.caracteristicas-produto {
+.produtos-recomendados {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 16px;
 }
 
-.item-caracteristica {
-  list-style-type: none;
-  width: 70%;
-  padding: 10px;
+.recomendados-img {
+  width: 200px;
+  height: 200px;
+}
+
+.avaliacao {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.fundo-cinza {
-  background-color: #D9D9D9;
+.produtos-loja {
+  margin: 70px 0 70px 0;
 }
 
+.prodtuos-loja-titulo {
+  padding-left: 50px;
+}
+
+.produto-recomendado {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+
+.produto-recomendado .descricao {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 40px;
+}
+
+.produto-recomendado p {
+  margin: 10px 5px 5px 5px;
+}
+
+.qtd-avaliacoes-container {
+  display: flex;
+}
+
+.qtd-avaliacoes {
+  padding-right: 5px;
+}
 
 .comentarios-container {
   margin-left: 50px;

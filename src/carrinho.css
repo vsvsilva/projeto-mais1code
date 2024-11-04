@@ -2,16 +2,26 @@ header {
     display: flex;
     background-color: #D9D9D999;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100px;
     font-size: 30px;
     font-weight: bold;
     color: black;
 }
 
+.logo-carrinho {
+    cursor: pointer;
+}
+
 main {
     margin-left: 20px;
 }
+
+.main-container {
+    display: flex;
+}
+
+
 
 .endereco-entrega {
     display: flex;

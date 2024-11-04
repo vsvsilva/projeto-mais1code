@@ -51,16 +51,7 @@ function exibirProdutos(produtos, seletor, inicio, fim) {
     item.innerHTML = `
       <img class="recomendados-img" src="${produto.imagem}">
       <p class="descricao">${produto.descricao}</p>
-      <div class="avaliacao">
-        <div class="avaliacao-estrelas">
-          <img src="icons/Star-cheia.png">
-          <img src="icons/Star-cheia.png">
-          <img src="icons/Star-cheia.png">
-          <img src="icons/Star-cheia.png">
-          <img src="icons/Star-cheia.png">
-        </div>
-        <spam>200</spam>
-      </div>
+      
       <h3>R$ ${produto.preco}</h3>
       <spam class="frete-gratis">Frete grátis</spam>
     `;
@@ -83,16 +74,7 @@ function exibirProdutosPorCategoria(produtos, seletor, palavrasChave) {
     item.innerHTML = `
       <img class="${seletor === '.eletrodomesticos-carrossel' ? 'eletrodomesticos-img' : 'moda-img'}" src="${produto.imagem}">
       <p>${produto.descricao}</p>
-      <div class="avaliacao">
-        <div class="avaliacao-estrelas">
-          <img src="icons/Star-cheia.png">
-          <img src="icons/Star-cheia.png">
-          <img src="icons/Star-cheia.png">
-          <img src="icons/Star-cheia.png">
-          <img src="icons/Star-cheia.png">
-        </div>
-        <spam>200</spam>
-      </div>
+      
       <h3>R$ ${produto.preco}</h3>
       <spam class="frete-gratis">Frete grátis</spam>
     `;
