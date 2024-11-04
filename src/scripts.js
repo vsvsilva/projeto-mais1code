@@ -36,7 +36,11 @@ async function requisicaoProdutos() {
   exibirProdutosPorCategoria(produtos, '.moda-carrossel', ["camisa", "polo" ,"camiseta", "mochila", "tênis", "jaqueta", "óculos", "boné", "calça", "cinto", "bolsa"]);
 }
 
-requisicaoProdutos();
+async function init(){
+  await requisicaoProdutos();
+};
+
+init();
 
 // Função genérica para exibir produtos por posição
 function exibirProdutos(produtos, seletor, inicio, fim) {

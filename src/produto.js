@@ -66,7 +66,7 @@ async function init() {
   await requisicaoAvaliacao(); // Chama a função que faz a requisição de avaliação
 }
 
-init(); // Inicializa as requisições
+// init(); // Inicializa as requisições
 
 function exibirProduto(produto, mediaNota) {
   const imagemPrincipal = document.querySelector('#imagem-principal-produto');
@@ -301,3 +301,20 @@ function gerarDataAleatoria(inicio, fim) {
   const dataAleatoria = new Date(dataInicio + Math.random() * (dataFim - dataInicio));
   return dataAleatoria;
 }
+
+// Exibe o conteúdo após o carregamento dos dados
+function mostrarConteudo() {
+  const conteudo = document.querySelector('.main-container');
+  conteudo.style.display = 'block'; // Exibe o conteúdo
+  
+  const footer = document.querySelector('.footer');
+  footer.style.display = 'block'; // Exibe o conteúdo
+}
+
+async function init() {
+  await requisicaoAvaliacao(); // Chama a função que faz a requisição de avaliação
+  mostrarConteudo(); // Exibe o conteúdo após o carregamento
+}
+
+init(); // Inicializa as requisições
+

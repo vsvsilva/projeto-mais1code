@@ -1,6 +1,7 @@
 .main-container {
   background-color: white;
   margin: 25px;
+  display: none;
 }
 
 .produto {
@@ -304,4 +305,8 @@
 .comentario {
   margin-left: 20px;
   margin-bottom: 50px;
+}
+
+footer {
+  display: none;
 }
