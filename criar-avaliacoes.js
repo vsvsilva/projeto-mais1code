@@ -6,7 +6,7 @@ const avaliacoes = [
     "comentario": "Ótima camisa, material confortável e durável.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-10-10T10:10:10.000Z",
+
     "item_id": 1
   },
   {
@@ -16,7 +16,7 @@ const avaliacoes = [
     "comentario": "Camisa com um bom caimento, recomendo.",
     "nota": 4,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-10-11T11:11:11.000Z",
+
     "item_id": 1
   },
   {
@@ -26,7 +26,7 @@ const avaliacoes = [
     "comentario": "Produto de boa qualidade, mas preço elevado.",
     "nota": 3,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-10-12T12:12:12.000Z",
+
     "item_id": 1
   },
   {
@@ -36,7 +36,7 @@ const avaliacoes = [
     "comentario": "A cor desbotou após algumas lavagens.",
     "nota": 2,
     "localizacao": "Porto Alegre, RS",
-    "criado_em": "2024-10-13T13:13:13.000Z",
+
     "item_id": 1
   },
   {
@@ -46,7 +46,7 @@ const avaliacoes = [
     "comentario": "Super confortável e estilosa!",
     "nota": 5,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-10-14T14:14:14.000Z",
+
     "item_id": 1
   },
   {
@@ -56,7 +56,7 @@ const avaliacoes = [
     "comentario": "Camisa simples, mas atende bem ao propósito.",
     "nota": 4,
     "localizacao": "Salvador, BA",
-    "criado_em": "2024-10-15T15:15:15.000Z",
+
     "item_id": 1
   },
   {
@@ -66,7 +66,7 @@ const avaliacoes = [
     "comentario": "Tênis confortável, perfeito para esportes.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-10-10T10:10:10.000Z",
+
     "item_id": 2
   },
   {
@@ -76,7 +76,7 @@ const avaliacoes = [
     "comentario": "Boa qualidade, mas podia ser mais resistente.",
     "nota": 4,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-10-11T11:11:11.000Z",
+
     "item_id": 2
   },
   {
@@ -86,7 +86,7 @@ const avaliacoes = [
     "comentario": "Muito bonito e confortável.",
     "nota": 5,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-10-12T12:12:12.000Z",
+
     "item_id": 2
   },
   {
@@ -96,7 +96,7 @@ const avaliacoes = [
     "comentario": "Solado desgasta rápido.",
     "nota": 3,
     "localizacao": "Porto Alegre, RS",
-    "criado_em": "2024-10-13T13:13:13.000Z",
+
     "item_id": 2
   },
   {
@@ -106,7 +106,7 @@ const avaliacoes = [
     "comentario": "Perfeito para treinos diários.",
     "nota": 4,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-10-14T14:14:14.000Z",
+
     "item_id": 2
   },
   {
@@ -116,7 +116,7 @@ const avaliacoes = [
     "comentario": "Poderia ser mais leve.",
     "nota": 3,
     "localizacao": "Salvador, BA",
-    "criado_em": "2024-10-15T15:15:15.000Z",
+
     "item_id": 2
   },
   {
@@ -126,7 +126,7 @@ const avaliacoes = [
     "comentario": "Desempenho excelente, ótima câmera.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-10-10T10:10:10.000Z",
+
     "item_id": 3
   },
   {
@@ -136,7 +136,7 @@ const avaliacoes = [
     "comentario": "Muito rápido e com bom armazenamento.",
     "nota": 4,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-10-11T11:11:11.000Z",
+
     "item_id": 3
   },
   {
@@ -146,7 +146,7 @@ const avaliacoes = [
     "comentario": "Excelente custo-benefício.",
     "nota": 5,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-10-12T12:12:12.000Z",
+
     "item_id": 3
   },
   {
@@ -156,7 +156,7 @@ const avaliacoes = [
     "comentario": "Bateria dura pouco.",
     "nota": 3,
     "localizacao": "Porto Alegre, RS",
-    "criado_em": "2024-10-13T13:13:13.000Z",
+
     "item_id": 3
   },
   {
@@ -166,7 +166,7 @@ const avaliacoes = [
     "comentario": "Tela excelente, mas preço elevado.",
     "nota": 4,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-10-14T14:14:14.000Z",
+
     "item_id": 3
   },
   {
@@ -176,7 +176,7 @@ const avaliacoes = [
     "comentario": "Aparelho muito bonito e moderno.",
     "nota": 5,
     "localizacao": "Salvador, BA",
-    "criado_em": "2024-10-15T15:15:15.000Z",
+
     "item_id": 3
   },
   {
@@ -186,7 +186,7 @@ const avaliacoes = [
     "comentario": "Relógio estiloso e funcional, adorei.",
     "nota": 5,
     "localizacao": "Brasília, DF",
-    "criado_em": "2024-10-16T10:10:10.000Z",
+
     "item_id": 4
   },
   {
@@ -196,7 +196,7 @@ const avaliacoes = [
     "comentario": "Funciona bem, mas achei a pulseira frágil.",
     "nota": 3,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-10-17T11:11:11.000Z",
+
     "item_id": 4
   },
   {
@@ -206,7 +206,7 @@ const avaliacoes = [
     "comentario": "Boa qualidade e acabamento impecável.",
     "nota": 4,
     "localizacao": "Recife, PE",
-    "criado_em": "2024-10-18T12:12:12.000Z",
+
     "item_id": 4
   },
   {
@@ -216,7 +216,7 @@ const avaliacoes = [
     "comentario": "Bonito, mas não durou muito tempo.",
     "nota": 2,
     "localizacao": "Salvador, BA",
-    "criado_em": "2024-10-19T13:13:13.000Z",
+
     "item_id": 4
   },
   {
@@ -226,7 +226,7 @@ const avaliacoes = [
     "comentario": "Design moderno e fácil de ajustar.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-10-20T14:14:14.000Z",
+
     "item_id": 4
   },
   {
@@ -236,7 +236,7 @@ const avaliacoes = [
     "comentario": "Ótima funcionalidade e custo-benefício.",
     "nota": 4,
     "localizacao": "Porto Alegre, RS",
-    "criado_em": "2024-10-21T15:15:15.000Z",
+
     "item_id": 4
   },
   {
@@ -246,7 +246,7 @@ const avaliacoes = [
     "comentario": "Jaqueta incrível e bem acabada.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-10-22T10:10:10.000Z",
+
     "item_id": 5
   },
   {
@@ -256,7 +256,7 @@ const avaliacoes = [
     "comentario": "Confortável, mas achei o preço alto.",
     "nota": 3,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-10-23T11:11:11.000Z",
+
     "item_id": 5
   },
   {
@@ -266,7 +266,7 @@ const avaliacoes = [
     "comentario": "Material de qualidade e corte perfeito.",
     "nota": 4,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-10-24T12:12:12.000Z",
+
     "item_id": 5
   },
   {
@@ -276,7 +276,7 @@ const avaliacoes = [
     "comentario": "Ficou larga nos ombros, mas gostei.",
     "nota": 3,
     "localizacao": "Recife, PE",
-    "criado_em": "2024-10-25T13:13:13.000Z",
+
     "item_id": 5
   },
   {
@@ -286,7 +286,7 @@ const avaliacoes = [
     "comentario": "Super estilosa, ótima para o inverno.",
     "nota": 5,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-10-26T14:14:14.000Z",
+
     "item_id": 5
   },
   {
@@ -296,7 +296,7 @@ const avaliacoes = [
     "comentario": "Bom produto, mas poderia ser mais quente.",
     "nota": 4,
     "localizacao": "Brasília, DF",
-    "criado_em": "2024-10-27T15:15:15.000Z",
+
     "item_id": 5
   },
   {
@@ -306,7 +306,7 @@ const avaliacoes = [
     "comentario": "Bolsa linda e com ótimo acabamento.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-10-28T10:10:10.000Z",
+
     "item_id": 6
   },
   {
@@ -316,7 +316,7 @@ const avaliacoes = [
     "comentario": "Couro de excelente qualidade.",
     "nota": 4,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-10-29T11:11:11.000Z",
+
     "item_id": 6
   },
   {
@@ -326,7 +326,7 @@ const avaliacoes = [
     "comentario": "Muito bonita, mas achei pequena.",
     "nota": 3,
     "localizacao": "Salvador, BA",
-    "criado_em": "2024-10-30T12:12:12.000Z",
+
     "item_id": 6
   },
   {
@@ -336,7 +336,7 @@ const avaliacoes = [
     "comentario": "Elegante e espaçosa.",
     "nota": 5,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-10-31T13:13:13.000Z",
+
     "item_id": 6
   },
   {
@@ -346,7 +346,7 @@ const avaliacoes = [
     "comentario": "A alça é um pouco desconfortável.",
     "nota": 3,
     "localizacao": "Recife, PE",
-    "criado_em": "2024-11-01T14:14:14.000Z",
+
     "item_id": 6
   },
   {
@@ -356,7 +356,7 @@ const avaliacoes = [
     "comentario": "Produto excelente, recomendo.",
     "nota": 5,
     "localizacao": "Porto Alegre, RS",
-    "criado_em": "2024-11-02T15:15:15.000Z",
+
     "item_id": 6
   },
   {
@@ -366,12 +366,36 @@ const avaliacoes = [
     "comentario": "Óculos super estiloso e leve.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-11-03T10:10:10.000Z",
+
     "item_id": 7
   },
-  { "id": 38, "imagem_url": "./produtos/oculos-sol-preto.webp", "video_url": "https://videos.com/video38.mp4", "comentario": "Amei o design, mas o material parece frágil.", "nota": 3, "localizacao": "Belo Horizonte, MG", "criado_em": "2024-11-04T11:11:11.000Z", "item_id": 7 },
-  { "id": 39, "imagem_url": "./produtos/oculos-sol-preto.webp", "video_url": "https://videos.com/video39.mp4", "comentario": "Protege bem do sol e é muito bonito.", "nota": 4, "localizacao": "Recife, PE", "criado_em": "2024-11-05T12:12:12.000Z", "item_id": 7 },
-  { "id": 40, "imagem_url": "./produtos/oculos-sol-preto.webp", "video_url": "https://videos.com/video40.mp4", "comentario": "Bom produto, mas achei caro.", "nota": 3, "localizacao": "Curitiba, PR", "criado_em": "2024-11-06T13:13:13.000Z", "item_id": 7 },
+  { "id": 38,
+    "imagem_url": "./produtos/oculos-sol-preto.webp",
+    "video_url": "https://videos.com/video38.mp4",
+    "comentario": "Amei o design, mas o material parece frágil.",
+    "nota": 3,
+    "localizacao": "Belo Horizonte, MG",
+
+    "item_id": 7
+  },
+  { "id": 39,
+    "imagem_url": "./produtos/oculos-sol-preto.webp",
+    "video_url": "https://videos.com/video39.mp4",
+    "comentario": "Protege bem do sol e é muito bonito.",
+    "nota": 4,
+    "localizacao": "Recife, PE",
+
+    "item_id": 7
+  },
+  { "id": 40,
+    "imagem_url": "./produtos/oculos-sol-preto.webp",
+    "video_url": "https://videos.com/video40.mp4",
+    "comentario": "Bom produto, mas achei caro.",
+    "nota": 3,
+    "localizacao": "Curitiba, PR",
+
+    "item_id": 7
+  },
   {
     "id": 41,
     "imagem_url": "./produtos/oculos-sol-preto.webp",
@@ -379,7 +403,7 @@ const avaliacoes = [
     "comentario": "Excelente qualidade, muito confortáveis.",
     "nota": 5,
     "localizacao": "Salvador, BA",
-    "criado_em": "2024-11-07T10:10:10.000Z",
+
     "item_id": 7
   },
   {
@@ -389,7 +413,7 @@ const avaliacoes = [
     "comentario": "Design clássico, combina com tudo.",
     "nota": 4,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-11-08T11:11:11.000Z",
+
     "item_id": 7
   },
   {
@@ -399,7 +423,7 @@ const avaliacoes = [
     "comentario": "Confortáveis e estilosos, ótimos para o dia a dia.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-11-09T12:12:12.000Z",
+
     "item_id": 8
   },
   {
@@ -409,7 +433,7 @@ const avaliacoes = [
     "comentario": "Bom custo-benefício, mas a sola poderia ser mais durável.",
     "nota": 3,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-11-10T13:13:13.000Z",
+
     "item_id": 8
   },
   {
@@ -419,7 +443,7 @@ const avaliacoes = [
     "comentario": "Amei o design, bem leve.",
     "nota": 4,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-11-11T14:14:14.000Z",
+
     "item_id": 8
   },
   {
@@ -429,7 +453,7 @@ const avaliacoes = [
     "comentario": "Ajustam bem, mas achei a cor sujeita a manchas.",
     "nota": 3,
     "localizacao": "Brasília, DF",
-    "criado_em": "2024-11-12T15:15:15.000Z",
+
     "item_id": 8
   },
   {
@@ -439,7 +463,7 @@ const avaliacoes = [
     "comentario": "Perfeitos para correr, muito confortáveis.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-11-13T10:10:10.000Z",
+
     "item_id": 8
   },
   {
@@ -449,7 +473,7 @@ const avaliacoes = [
     "comentario": "Camisa de excelente qualidade, bem cortada.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-11-14T11:11:11.000Z",
+
     "item_id": 9
   },
   {
@@ -459,7 +483,7 @@ const avaliacoes = [
     "comentario": "Ótima para o trabalho, muito confortável.",
     "nota": 4,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-11-15T12:12:12.000Z",
+
     "item_id": 9
   },
   {
@@ -469,7 +493,7 @@ const avaliacoes = [
     "comentario": "Um pouco transparente, mas muito bonita.",
     "nota": 3,
     "localizacao": "Salvador, BA",
-    "criado_em": "2024-11-16T13:13:13.000Z",
+
     "item_id": 9
   },
   {
@@ -479,7 +503,7 @@ const avaliacoes = [
     "comentario": "Relógio muito prático e fácil de usar.",
     "nota": 4,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-11-17T14:14:14.000Z",
+
     "item_id": 10
   },
   {
@@ -489,7 +513,7 @@ const avaliacoes = [
     "comentario": "Gostei muito da resistência à água.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-11-18T15:15:15.000Z",
+
     "item_id": 10
   },
   {
@@ -499,7 +523,7 @@ const avaliacoes = [
     "comentario": "Design bonito, mas o visor risca com facilidade.",
     "nota": 3,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-11-19T16:16:16.000Z",
+
     "item_id": 10
   },
   {
@@ -509,7 +533,7 @@ const avaliacoes = [
     "comentario": "Fácil de programar, recomendo para iniciantes.",
     "nota": 5,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-11-20T17:17:17.000Z",
+
     "item_id": 10
   },
   {
@@ -519,7 +543,7 @@ const avaliacoes = [
     "comentario": "Ótimos para caminhadas, muito confortáveis.",
     "nota": 5,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-11-21T18:18:18.000Z",
+
     "item_id": 11
   },
   {
@@ -529,7 +553,7 @@ const avaliacoes = [
     "comentario": "Ajustam bem, mas a cor desbota rápido.",
     "nota": 3,
     "localizacao": "Salvador, BA",
-    "criado_em": "2024-11-22T19:19:19.000Z",
+
     "item_id": 11
   },
   {
@@ -539,7 +563,7 @@ const avaliacoes = [
     "comentario": "Design moderno e confortável, recomendo!",
     "nota": 4,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-11-23T20:20:20.000Z",
+
     "item_id": 11
   },
   {
@@ -549,7 +573,7 @@ const avaliacoes = [
     "comentario": "Perfeitos para o dia a dia, muito leves.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-11-24T21:21:21.000Z",
+
     "item_id": 11
   },
   {
@@ -559,7 +583,7 @@ const avaliacoes = [
     "comentario": "Sensibilidade incrível, ótimo para gamers.",
     "nota": 5,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-11-25T22:22:22.000Z",
+
     "item_id": 12
   },
   {
@@ -569,7 +593,7 @@ const avaliacoes = [
     "comentario": "Ergonômico, perfeito para longas jogatinas.",
     "nota": 4,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-11-26T10:10:10.000Z",
+
     "item_id": 12
   },
   {
@@ -579,7 +603,7 @@ const avaliacoes = [
     "comentario": "Bom, mas poderia ser sem fio.",
     "nota": 3,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-11-27T11:11:11.000Z",
+
     "item_id": 12
   },
   {
@@ -589,7 +613,7 @@ const avaliacoes = [
     "comentario": "A iluminação é incrível e personalizável.",
     "nota": 5,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-11-28T12:12:12.000Z",
+
     "item_id": 12
   },
   {
@@ -599,7 +623,7 @@ const avaliacoes = [
     "comentario": "Teclado muito confortável e responsivo.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-11-29T13:13:13.000Z",
+
     "item_id": 13
   },
   {
@@ -609,7 +633,7 @@ const avaliacoes = [
     "comentario": "Perfeito para digitação, recomendo.",
     "nota": 5,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-11-30T14:14:14.000Z",
+
     "item_id": 13
   },
   {
@@ -619,7 +643,7 @@ const avaliacoes = [
     "comentario": "Um pouco barulhento, mas a sensação ao digitar é ótima.",
     "nota": 4,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-12-01T15:15:15.000Z",
+
     "item_id": 13
   },
   {
@@ -629,7 +653,7 @@ const avaliacoes = [
     "comentario": "Cores personalizáveis são um grande diferencial.",
     "nota": 5,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-12-02T16:16:16.000Z",
+
     "item_id": 13
   },
   {
@@ -639,7 +663,7 @@ const avaliacoes = [
     "comentario": "Espaçosa e muito bonita, perfeita para o home office.",
     "nota": 5,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-12-03T17:17:17.000Z",
+
     "item_id": 14
   },
   {
@@ -649,7 +673,7 @@ const avaliacoes = [
     "comentario": "Montagem um pouco difícil, mas vale a pena.",
     "nota": 4,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-12-04T18:18:18.000Z",
+
     "item_id": 14
   },
   {
@@ -659,7 +683,7 @@ const avaliacoes = [
     "comentario": "Material resistente, espero que dure bastante.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-12-05T19:19:19.000Z",
+
     "item_id": 14
   },
   {
@@ -669,7 +693,7 @@ const avaliacoes = [
     "comentario": "Precisa de mais opções de cores.",
     "nota": 3,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-12-06T20:20:20.000Z",
+
     "item_id": 14
   },
   {
@@ -679,7 +703,7 @@ const avaliacoes = [
     "comentario": "Extremamente confortáveis, perfeitas para o verão.",
     "nota": 5,
     "localizacao": "Salvador, BA",
-    "criado_em": "2024-12-07T21:21:21.000Z",
+
     "item_id": 15
   },
   {
@@ -689,7 +713,7 @@ const avaliacoes = [
     "comentario": "Boa relação custo-benefício, recomendo.",
     "nota": 4,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-12-08T22:22:22.000Z",
+
     "item_id": 15
   },
   {
@@ -699,7 +723,7 @@ const avaliacoes = [
     "comentario": "A cor desbotou rápido após algumas lavagens.",
     "nota": 2,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-12-09T23:23:23.000Z",
+
     "item_id": 15
   },
   {
@@ -709,7 +733,7 @@ const avaliacoes = [
     "comentario": "Faltou um pouco de suporte para o arco do pé.",
     "nota": 3,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-12-10T10:10:10.000Z",
+
     "item_id": 15
   },
   {
@@ -719,7 +743,7 @@ const avaliacoes = [
     "comentario": "Ótima qualidade de tecido, bem macia.",
     "nota": 5,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-12-11T11:11:11.000Z",
+
     "item_id": 16
   },
   {
@@ -729,7 +753,7 @@ const avaliacoes = [
     "comentario": "A camiseta encolheu um pouco na lavagem.",
     "nota": 3,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-12-12T12:12:12.000Z",
+
     "item_id": 16
   },
   {
@@ -739,7 +763,7 @@ const avaliacoes = [
     "comentario": "Cores vibrantes e não desbotam facilmente.",
     "nota": 4,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-12-13T13:13:13.000Z",
+
     "item_id": 16
   },
   {
@@ -749,7 +773,7 @@ const avaliacoes = [
     "comentario": "Modelo básico, mas é meu favorito.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-12-14T14:14:14.000Z",
+
     "item_id": 16
   },
   {
@@ -759,7 +783,7 @@ const avaliacoes = [
     "comentario": "Ótima para o dia a dia, cabe tudo que preciso.",
     "nota": 5,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-12-15T15:15:15.000Z",
+
     "item_id": 17
   },
   {
@@ -769,7 +793,7 @@ const avaliacoes = [
     "comentario": "Design bonito, mas as alças poderiam ser mais confortáveis.",
     "nota": 4,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-12-16T16:16:16.000Z",
+
     "item_id": 17
   },
   {
@@ -779,7 +803,7 @@ const avaliacoes = [
     "comentario": "Material resistente, mas um pouco pesada.",
     "nota": 3,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-12-17T17:17:17.000Z",
+
     "item_id": 17
   },
   {
@@ -789,7 +813,7 @@ const avaliacoes = [
     "comentario": "Cabe tudo que preciso e ainda sobra espaço.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-12-18T18:18:18.000Z",
+
     "item_id": 17
   },
   {
@@ -799,7 +823,7 @@ const avaliacoes = [
     "comentario": "Panelas de ótima qualidade, cozinham bem.",
     "nota": 5,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-12-19T19:19:19.000Z",
+
     "item_id": 18
   },
   {
@@ -809,7 +833,7 @@ const avaliacoes = [
     "comentario": "São pesadas, mas a durabilidade é ótima.",
     "nota": 4,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-12-20T20:20:20.000Z",
+
     "item_id": 18
   },
   {
@@ -819,7 +843,7 @@ const avaliacoes = [
     "comentario": "Aprovado! Cozinha uniformemente.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-12-21T21:21:21.000Z",
+
     "item_id": 18
   },
   {
@@ -829,7 +853,7 @@ const avaliacoes = [
     "comentario": "Faltou uma panela maior no conjunto.",
     "nota": 3,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-12-22T22:22:22.000Z",
+
     "item_id": 18
   },
   {
@@ -839,7 +863,7 @@ const avaliacoes = [
     "comentario": "Fogão muito eficiente e fácil de limpar.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-12-23T23:23:23.000Z",
+
     "item_id": 19
   },
   {
@@ -849,7 +873,7 @@ const avaliacoes = [
     "comentario": "As chamas são bem fortes, cuidado.",
     "nota": 4,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-12-24T10:10:10.000Z",
+
     "item_id": 19
   },
   {
@@ -859,7 +883,7 @@ const avaliacoes = [
     "comentario": "Fui surpreendido pela eficiência do forno.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-12-25T11:11:11.000Z",
+
     "item_id": 19
   },
   {
@@ -869,7 +893,7 @@ const avaliacoes = [
     "comentario": "Design bonito, mas o acabamento poderia ser melhor.",
     "nota": 3,
     "localizacao": "Fortaleza, CE",
-    "criado_em": "2024-12-26T12:12:12.000Z",
+
     "item_id": 19
   },
   {
@@ -879,7 +903,7 @@ const avaliacoes = [
     "comentario": "Talheres de ótima qualidade e design elegante.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-12-27T13:13:13.000Z",
+
     "item_id": 20
   },
   {
@@ -889,7 +913,7 @@ const avaliacoes = [
     "comentario": "Muito bons, mas o garfo é um pouco pesado.",
     "nota": 4,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2024-12-28T14:14:14.000Z",
+
     "item_id": 20
   },
   {
@@ -899,7 +923,7 @@ const avaliacoes = [
     "comentario": "São bonitos, mas arranham facilmente.",
     "nota": 3,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2024-12-29T15:15:15.000Z",
+
     "item_id": 20
   },
   {
@@ -909,7 +933,7 @@ const avaliacoes = [
     "comentario": "Satisfeito com a compra, cumpre o que promete.",
     "nota": 4,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2024-12-30T16:16:16.000Z",
+
     "item_id": 20
   },
   {
@@ -919,7 +943,7 @@ const avaliacoes = [
     "comentario": "Muito confortável para longas horas de trabalho.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2024-12-31T17:17:17.000Z",
+
     "item_id": 21
   },
   {
@@ -929,7 +953,7 @@ const avaliacoes = [
     "comentario": "Ajustes de altura funcionam bem, mas o encosto poderia ser mais firme.",
     "nota": 4,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2025-01-01T18:18:18.000Z",
+
     "item_id": 21
   },
   {
@@ -939,7 +963,7 @@ const avaliacoes = [
     "comentario": "Estava esperando algo mais robusto, mas atende.",
     "nota": 3,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2025-01-02T19:19:19.000Z",
+
     "item_id": 21
   },
   {
@@ -949,7 +973,7 @@ const avaliacoes = [
     "comentario": "Valeu a pena, muito bom custo-benefício.",
     "nota": 5,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2025-01-03T20:20:20.000Z",
+
     "item_id": 21
   },
   {
@@ -959,7 +983,7 @@ const avaliacoes = [
     "comentario": "Iluminação perfeita para meu escritório.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2025-01-04T21:21:21.000Z",
+
     "item_id": 22
   },
   {
@@ -969,7 +993,7 @@ const avaliacoes = [
     "comentario": "Design moderno, mas poderia ter mais intensidade.",
     "nota": 4,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2025-01-05T22:22:22.000Z",
+
     "item_id": 22
   },
   {
@@ -979,7 +1003,7 @@ const avaliacoes = [
     "comentario": "Muito bonita, mas não ilumina o suficiente.",
     "nota": 3,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2025-01-06T10:10:10.000Z",
+
     "item_id": 22
   },
   {
@@ -989,7 +1013,7 @@ const avaliacoes = [
     "comentario": "Ótima luminária para ambientes pequenos.",
     "nota": 5,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2025-01-07T11:11:11.000Z",
+
     "item_id": 22
   },
   {
@@ -999,7 +1023,7 @@ const avaliacoes = [
     "comentario": "Relógio lindo e muito elegante.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2025-01-08T12:12:12.000Z",
+
     "item_id": 23
   },
   {
@@ -1009,7 +1033,7 @@ const avaliacoes = [
     "comentario": "A pulseira poderia ser de um material melhor.",
     "nota": 4,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2025-01-09T13:13:13.000Z",
+
     "item_id": 23
   },
   {
@@ -1019,7 +1043,7 @@ const avaliacoes = [
     "comentario": "Ótima compra, recomendo para quem gosta de relógios.",
     "nota": 5,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2025-01-10T14:14:14.000Z",
+
     "item_id": 23
   },
   {
@@ -1029,7 +1053,7 @@ const avaliacoes = [
     "comentario": "O relógio parou de funcionar depois de uma semana.",
     "nota": 1,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2025-01-11T15:15:15.000Z",
+
     "item_id": 23
   },
   {
@@ -1039,7 +1063,7 @@ const avaliacoes = [
     "comentario": "A bicicleta é leve e fácil de manobrar.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2025-01-12T16:16:16.000Z",
+
     "item_id": 24
   },
   {
@@ -1049,7 +1073,7 @@ const avaliacoes = [
     "comentario": "Muito confortável, ideal para passeios longos.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2025-01-13T17:17:17.000Z",
+
     "item_id": 24
   },
   {
@@ -1059,7 +1083,7 @@ const avaliacoes = [
     "comentario": "O freio não funciona tão bem quanto eu esperava.",
     "nota": 3,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2025-01-14T18:18:18.000Z",
+
     "item_id": 24
   },
   {
@@ -1069,7 +1093,7 @@ const avaliacoes = [
     "comentario": "Ótima relação custo-benefício.",
     "nota": 4,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2025-01-15T19:19:19.000Z",
+
     "item_id": 24
   },
   {
@@ -1079,7 +1103,7 @@ const avaliacoes = [
     "comentario": "Mochila espaçosa e resistente, ideal para viagens.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2025-01-16T20:20:20.000Z",
+
     "item_id": 25
   },
   {
@@ -1089,7 +1113,7 @@ const avaliacoes = [
     "comentario": "Design bonito, mas o zíper ficou travando.",
     "nota": 3,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2025-01-17T21:21:21.000Z",
+
     "item_id": 25
   },
   {
@@ -1099,7 +1123,7 @@ const avaliacoes = [
     "comentario": "Boa mochila, mas o suporte para laptop poderia ser melhor.",
     "nota": 4,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2025-01-18T22:22:22.000Z",
+
     "item_id": 25
   },
   {
@@ -1109,7 +1133,7 @@ const avaliacoes = [
     "comentario": "Excelente mochila para o dia a dia!",
     "nota": 5,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2025-01-19T10:10:10.000Z",
+
     "item_id": 25
   },
   {
@@ -1119,7 +1143,7 @@ const avaliacoes = [
     "comentario": "Qualidade de som excepcional.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2025-01-20T11:11:11.000Z",
+
     "item_id": 26
   },
   {
@@ -1129,7 +1153,7 @@ const avaliacoes = [
     "comentario": "Confortáveis para uso prolongado.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2025-01-21T12:12:12.000Z",
+
     "item_id": 26
   },
   {
@@ -1139,7 +1163,7 @@ const avaliacoes = [
     "comentario": "O microfone poderia ser melhor.",
     "nota": 4,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2025-01-22T13:13:13.000Z",
+
     "item_id": 26
   },
   {
@@ -1149,7 +1173,7 @@ const avaliacoes = [
     "comentario": "Bom fone, mas o botão de controle é pequeno.",
     "nota": 4,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2025-01-23T14:14:14.000Z",
+
     "item_id": 26
   },
   {
@@ -1159,7 +1183,7 @@ const avaliacoes = [
     "comentario": "Espaçosa e econômica no consumo de energia.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2025-01-24T15:15:15.000Z",
+
     "item_id": 27
   },
   {
@@ -1169,7 +1193,7 @@ const avaliacoes = [
     "comentario": "O design é muito bonito e moderno.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2025-01-25T16:16:16.000Z",
+
     "item_id": 27
   },
   {
@@ -1179,7 +1203,7 @@ const avaliacoes = [
     "comentario": "Faltou um suporte para ovos, mas atende bem.",
     "nota": 4,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2025-01-26T17:17:17.000Z",
+
     "item_id": 27
   },
   {
@@ -1189,7 +1213,7 @@ const avaliacoes = [
     "comentario": "Bom espaço interno, mas o barulho poderia ser menor.",
     "nota": 3,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2025-01-27T18:18:18.000Z",
+
     "item_id": 27
   },
   {
@@ -1199,7 +1223,7 @@ const avaliacoes = [
     "comentario": "Ótimo aspirador, suga muito bem.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2025-01-28T19:19:19.000Z",
+
     "item_id": 28
   },
   {
@@ -1209,7 +1233,7 @@ const avaliacoes = [
     "comentario": "Fácil de manobrar e leve.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2025-01-29T20:20:20.000Z",
+
     "item_id": 28
   },
   {
@@ -1219,7 +1243,7 @@ const avaliacoes = [
     "comentario": "Um pouco barulhento, mas funciona bem.",
     "nota": 4,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2025-01-30T21:21:21.000Z",
+
     "item_id": 28
   },
   {
@@ -1229,7 +1253,7 @@ const avaliacoes = [
     "comentario": "Os acessórios são muito úteis.",
     "nota": 5,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2025-01-31T22:22:22.000Z",
+
     "item_id": 28
   },
   {
@@ -1239,7 +1263,7 @@ const avaliacoes = [
     "comentario": "Excelente qualidade de chamada.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2025-02-01T10:10:10.000Z",
+
     "item_id": 29
   },
   {
@@ -1249,7 +1273,7 @@ const avaliacoes = [
     "comentario": "Bateria duradoura e fácil de usar.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2025-02-02T11:11:11.000Z",
+
     "item_id": 29
   },
   {
@@ -1259,7 +1283,7 @@ const avaliacoes = [
     "comentario": "Boa câmera, mas o armazenamento é limitado.",
     "nota": 4,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2025-02-03T12:12:12.000Z",
+
     "item_id": 29
   },
   {
@@ -1269,7 +1293,7 @@ const avaliacoes = [
     "comentario": "Tela grande e nítida, ótimo para assistir vídeos.",
     "nota": 5,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2025-02-04T13:13:13.000Z",
+
     "item_id": 29
   },
   {
@@ -1279,7 +1303,7 @@ const avaliacoes = [
     "comentario": "A qualidade da imagem é impressionante.",
     "nota": 5,
     "localizacao": "São Paulo, SP",
-    "criado_em": "2025-02-05T14:14:14.000Z",
+
     "item_id": 30
   },
   {
@@ -1289,7 +1313,7 @@ const avaliacoes = [
     "comentario": "Ótimo para jogos, a taxa de atualização é excelente.",
     "nota": 5,
     "localizacao": "Rio de Janeiro, RJ",
-    "criado_em": "2025-02-06T15:15:15.000Z",
+
     "item_id": 30
   },
   {
@@ -1299,7 +1323,7 @@ const avaliacoes = [
     "comentario": "Ajustes de cores são fáceis de fazer.",
     "nota": 4,
     "localizacao": "Belo Horizonte, MG",
-    "criado_em": "2025-02-07T16:16:16.000Z",
+
     "item_id": 30
   },
   {
@@ -1309,7 +1333,7 @@ const avaliacoes = [
     "comentario": "Muito bom, mas o suporte poderia ser mais estável.",
     "nota": 4,
     "localizacao": "Curitiba, PR",
-    "criado_em": "2025-02-08T17:17:17.000Z",
+
     "item_id": 30
   }
 ];
@@ -1317,36 +1341,7 @@ const avaliacoes = [
 
 const URL = 'https://projeto-backend-mais1code.onrender.com/avaliacao_itens';
 
-item = {
-  "id": 1,
-  "imagem_url": "./produtos/camisa-polo-azul.webp",
-  "video_url": "https://videos.com/video1.mp4",
-  "comentario": "Ótima camisa, material confortável e durável.",
-  "nota": 5,
-  "localizacao": "São Paulo, SP",
-  "criado_em": "2024-10-10T10:10:10.000Z",
-  "item_id": 1
-}
 
-fetch(URL, {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  body: JSON.stringify(item),
-})
-.then(response => {
-  console.log('Resposta do servidor:', response);
-  return response.json();
-})
-.then(data => {
-  console.log('avaliação criada com sucesso:', data);
-})
-.catch(error => {
-  console.error('Erro ao criar a avaliação:', error);
-});
-
-/*
 avaliacoes.forEach(item => {
   fetch(URL, {
     method: 'POST',
@@ -1365,4 +1360,4 @@ avaliacoes.forEach(item => {
   .catch(error => {
     console.error('Erro ao criar a avaliação:', error);
   });
-});*/
+});

@@ -101,10 +101,10 @@
   margin: 10px 5px 5px 5px;
 }
 
-.categorias-titulo {
-  margin-left: 50px;
-}
 
+.categorias {
+  margin-bottom: 30px;
+}
 
 .categorias-carrossel-container {
   display: flex;
@@ -116,6 +116,10 @@
   display: flex;
   overflow: hidden;
   scroll-behavior: smooth;
+}
+
+.categorias-carrossel h2 {
+  text-align: center;
 }
 
 .categorias-carrossel img {
@@ -133,8 +137,12 @@
   height: 100px;
 }
 
-.continue-comprando-titulo {
+.categorias-titulo {
   margin-left: 50px;
+}
+
+.continue-comprando {
+  margin-bottom: 50px;
 }
 
 .continue-comprando-container {
@@ -154,28 +162,51 @@
   height: 200px;
 }
 
-.itens-cozinha-container {
+.eletrodomesticos {
+  margin-bottom: 50px;
+}
+
+.eletrodomesticos-container {
   display: flex;
   align-items: center;
 }
 
-.itens-cozinha-carrossel {
+.eletrodomesticos-carrossel {
   display: flex;
   overflow: hidden;
   scroll-behavior: smooth;
+  gap: 16px;
 }
 
-.moda-feminina-container {
+.eletrodomesticos-img {
+  width: 200px;
+  height: 200px;
+}
+
+.moda {
+  margin-bottom: 50px;
+}
+
+.moda-container {
   display: flex;
   align-items: center;
 }
 
-.moda-feminina-carrossel {
+.moda-carrossel {
   display: flex;
   overflow: hidden;
   scroll-behavior: smooth;
+  gap: 16px;
 }
 
+.moda-img {
+  width: 200px;
+  height: 200px;
+}
+
+.categorias-titulo {
+  margin-left: 50px;
+}
 
 .frete-gratis {
   color: green;

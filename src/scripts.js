@@ -16,163 +16,88 @@ initCarrossel('.botao-voltar', '.botao-avancar', '.categorias-carrossel', 200);
 
 initCarrossel('.botao-voltar-cc', '.botao-avancar-cc', '.continue-comprando-carrossel', 300);
 
-initCarrossel('.botao-voltar-ic', '.botao-avancar-ic', '.itens-cozinha-carrossel', 300);
+initCarrossel('.botao-voltar-ic', '.botao-avancar-ic', '.eletrodomesticos-carrossel', 300);
 
-initCarrossel('.botao-voltar-mf', '.botao-avancar-mf', '.moda-feminina-carrossel', 300);
+initCarrossel('.botao-voltar-mf', '.botao-avancar-mf', '.moda-carrossel', 300);
 
 
 
 
 const URL = "https://projeto-backend-mais1code.onrender.com/";
 
-
-
 async function requisicaoProdutos() {
   const resposta = await fetch(URL);
   const produtos = await resposta.json();
-  exibirProdutosRecomendados(produtos);
-  exibirContinueComprando(produtos);
-  exibirItensCozinha(produtos);
-  exibirModaFeminina(produtos);
+  
+  exibirProdutos(produtos, '.produtos-recomendados', 0, 10);
+  exibirProdutos(produtos, '.continue-comprando-carrossel', 10, 20);
+  exibirProdutosPorCategoria(produtos, '.eletrodomesticos-carrossel', ["geladeira", "fogão", "micro-ondas", "máquina", "secadora", "liquidificador", "freezer", "aspirador", "tv"]);
+  // exibirProdutosPorCategoria(produtos, '.moda-carrossel', ["camisa", "calça", "jaqueta", "óculos", "boné", "camiseta"]);
+  exibirProdutosPorCategoria(produtos, '.moda-carrossel', ["camisa", "polo" ,"camiseta", "mochila", "tênis", "jaqueta", "óculos", "boné", "calça", "cinto", "bolsa"]);
 }
 
 requisicaoProdutos();
 
-async function requisicaoProdutos() {
-  const resposta = await fetch(URL);
-  const produtos = await resposta.json();
-  exibirProdutosRecomendados(produtos);
-  exibirContinueComprando(produtos);
-  exibirItensCozinha(produtos);
-  exibirModaFeminina(produtos);
-}
+// Função genérica para exibir produtos por posição
+function exibirProdutos(produtos, seletor, inicio, fim) {
+  const container = document.querySelector(seletor);
+  const produtosExibidos = produtos.slice(inicio, fim);
 
-
-function exibirProdutosRecomendados(produtos) {
-
-  const produtosContainer = document.querySelector('.produtos-recomendados');
-
-  const produtosRecomendados = produtos.slice(0, 10);
-
-  produtosRecomendados.forEach(produto => {
+  produtosExibidos.forEach(produto => {
     const item = document.createElement('a');
     item.className = 'produto-recomendado';
     item.href = 'produto.html?id=' + produto.id;
 
     item.innerHTML = `
-    <img class="recomendados-img" src="${produto.imagem}">
-    <p class="descricao">${produto.descricao}</p>
-    
-    <div class="avaliacao">
-      <div class="avaliacao-estrelas">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
+      <img class="recomendados-img" src="${produto.imagem}">
+      <p class="descricao">${produto.descricao}</p>
+      <div class="avaliacao">
+        <div class="avaliacao-estrelas">
+          <img src="icons/Star-cheia.png">
+          <img src="icons/Star-cheia.png">
+          <img src="icons/Star-cheia.png">
+          <img src="icons/Star-cheia.png">
+          <img src="icons/Star-cheia.png">
+        </div>
+        <spam>200</spam>
       </div>
-      <spam>200</spam>
-    </div>
-    <h3>R$ ${produto.preco}</h3>
-    <spam class="frete-gratis">Frete grátis</spam>
-`
-    produtosContainer.appendChild(item);
-
+      <h3>R$ ${produto.preco}</h3>
+      <spam class="frete-gratis">Frete grátis</spam>
+    `;
+    container.appendChild(item);
   });
 }
 
+// Função para exibir produtos filtrados por palavras-chave
+function exibirProdutosPorCategoria(produtos, seletor, palavrasChave) {
+  const container = document.querySelector(seletor);
+  const produtosFiltrados = produtos.filter(produto =>
+    palavrasChave.some(palavra => produto.descricao.toLowerCase().includes(palavra))
+  );
 
-function exibirContinueComprando(produtos) {
-  const divContinueComprando = document.querySelector('.continue-comprando-carrossel');
-
-  const produtosContinueComprando = produtos.slice(10, 20);
-
-  produtosContinueComprando.forEach(produto => {
-    const item = document.createElement('div');
+  produtosFiltrados.forEach(produto => {
+    const item = document.createElement('a');
     item.className = 'produto-recomendado';
+    item.href = 'produto.html?id=' + produto.id;
 
     item.innerHTML = `
-    <img class="continue-comprando-img" src="${produto.imagem}">
-    <p class="descricao">${produto.descricao}</p>
-    
-    <div class="avaliacao">
-      <div class="avaliacao-estrelas">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
+      <img class="${seletor === '.eletrodomesticos-carrossel' ? 'eletrodomesticos-img' : 'moda-img'}" src="${produto.imagem}">
+      <p>${produto.descricao}</p>
+      <div class="avaliacao">
+        <div class="avaliacao-estrelas">
+          <img src="icons/Star-cheia.png">
+          <img src="icons/Star-cheia.png">
+          <img src="icons/Star-cheia.png">
+          <img src="icons/Star-cheia.png">
+          <img src="icons/Star-cheia.png">
+        </div>
+        <spam>200</spam>
       </div>
-      <p>200</p>
-    </div>
-    <h3>R$ ${produto.preco}</h3>
-    <spam class="frete-gratis">Frete grátis</spam>
+      <h3>R$ ${produto.preco}</h3>
+      <spam class="frete-gratis">Frete grátis</spam>
     `;
-
-    divContinueComprando.appendChild(item);
-
-  });
-
-}
-
-function exibirItensCozinha(produtos){
-
-  const divContinueComprando = document.querySelector('.itens-cozinha-carrossel');
-
-  produtos.forEach(produto => {
-    const item = document.createElement('div');
-    item.className = 'produto-recomendado';
-
-    item.innerHTML = `
-    <img src="${produto.imagem}">
-    <p>${produto.descricao}</p>
-    
-    <div class="avaliacao">
-      <div class="avaliacao-estrelas">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-      </div>
-      <p>200</p>
-    </div>
-    <h3>R$ ${produto.preco}</h3>
-    <p>Frete grátis</p>
-    `;
-
-    divContinueComprando.appendChild(item);
-
+    container.appendChild(item);
   });
 }
 
-function exibirModaFeminina(produtos){
 
-  const divContinueComprando = document.querySelector('.moda-feminina-carrossel');
-
-  produtos.forEach(produto => {
-    const item = document.createElement('div');
-    item.className = 'produto-recomendado';
-
-    item.innerHTML = `
-    <img src="${produto.imagem}">
-    <p>${produto.descricao}</p>
-    
-    <div class="avaliacao">
-      <div class="avaliacao-estrelas">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-        <img src="icons/Star-cheia.png">
-      </div>
-      <p>200</p>
-    </div>
-    <h3>R$ ${produto.preco}</h3>
-    <p>Frete grátis</p>
-    `;
-
-    divContinueComprando.appendChild(item);
-
-  });
-}
