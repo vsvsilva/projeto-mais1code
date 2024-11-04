@@ -1,116 +1,172 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
 header {
     display: flex;
-    background-color: #D9D9D999;
+    background-color: #5E17B9;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
-    font-size: 30px;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
     font-weight: bold;
-    color: black;
 }
 
 .logo-carrinho {
     cursor: pointer;
 }
 
-main {
-    margin-left: 20px;
-}
-
 .main-container {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilos de Sessão */
+.info-pedido-container h3 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
 
-
-.endereco-entrega {
+.endereco-entrega, .metodo-pagamento, .pedido {
     display: flex;
     flex-direction: column;
-    /*border: solid 1px; */
-    padding: 15px;
-    width: 800px;
-    border-radius: 10px;
-    margin: 20px 20px;
-    font-size: small;
+    gap: 8px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.endereco-entrega p {
-    margin: 5px;
+.alterar p {
+    color: #6C63FF;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 10px;
 }
 
-.metodo-pagamento {
-    display: flex;
-    align-items: center;
-    /* border: solid 1px; */
-    padding: 15px;
-    width: 800px;
-    border-radius: 10px;
-    margin: 20px 20px;
-    font-size: small;
+.alterar p:hover {
+    text-decoration: underline;
 }
 
-.pedido {
-    display: flex;
-    align-items: center;
-    /* border: solid 1px; */
-    padding: 15px;
-    width: 800px;
-    border-radius: 10px;
-    margin: 20px 20px;
+.pedido img {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 4px;
 }
 
+.pedido p {
+    font-size: 16px;
+    line-height: 1.4;
+}
 
+/* Finalizar Compra */
 .finalizar-compra-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    border: solid 1px;
-    padding: 15px;
-    width: 800px;
-    border-radius: 10px;
-    margin: 25px 20px;
-
+    gap: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .finalizar-compra {
-    display: flex;
-    height: 40px;
+    width: 100%;
+    text-align: center;
     padding: 15px;
-    width: 500px;
-    border-radius: 30px;
-    margin: 25px 20px;
-    background-color: #5E17B966;
+    border-radius: 8px;
+    background-color: #740090;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.finalizar-compra h3 {
-    display: flex;
-    align-items: center;
-    color: black;
-    margin-left: 45px;
-    
-    
+.finalizar-compra:hover {
+    background-color: #5E17B9;
 }
 
 .total-pedido h4 {
-    display: flex;
-    font-size: 25px;
+    font-size: 24px;
     color: #B22A2A;
-    margin: 0px;
+    font-weight: bold;
 }
 
 .total-pedido p {
     font-size: 12px;
+    color: #777;
+    margin-top: 8px;
 }
 
-.alterar p {
-    margin-left: 700px;
-    font-size: small;
+
+/* Estilos para o Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
 }
 
-.resumo {
-    border: solid 1px;
-    padding: 15px;
-    width: 500px;
-    border-radius: 10px;
-    margin: 20px 20px;
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    animation: modalShow 0.3s ease;
+}
+
+.modal-content h2 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.modal-content p {
+    font-size: 16px;
+    color: #333;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Animação para o Modal */
+@keyframes modalShow {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
 }

@@ -8,115 +8,96 @@
     <title>Carrinho</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="logo-carrinho">CodeShop</div>
         <div class="finalizar">
             <p>Finalizar Compra</p>
         </div>
-        <div></div>
     </header>
 
-<main>
-  <div class="main-container">
-  <div class="info-pedido-container">
+    <main>
+        <div class="main-container">
+            <!-- Endereço de Entrega -->
+            <section class="info-pedido-container endereco-entrega-container">
+                <h3>Endereço de Entrega</h3>
+                <div class="endereco-entrega">
+                    <p>Nome do cliente</p>
+                    <p>Endereço do cliente</p>
+                    <p>Cidade, UF</p>
+                    <p>CEP</p>
+                    <div class="alterar"><p>Alterar</p></div>
+                </div>
+            </section>
 
-    <div class="endereco-entrega-container">
-      <h3>Endereço de Entrega</h3>
-        <div class="endereco-entrega">
-        <p>Nome do cliente</p>
-        <p>Endereço do cliente</p>
-        <p>Cidade, UF</p>
-        <p>CEP</p>
-    
+            <hr>
 
-        <div class="alterar">
-          <p>Alterar</p>
+            <!-- Método de Pagamento -->
+            <section class="info-pedido-container pagamento">
+                <h3>Método de Pagamento</h3>
+                <div class="metodo-pagamento">
+                    <p>Pagamento com Mastercard 0000</p>
+                    <div class="alterar"><p>Alterar</p></div>
+                </div>
+            </section>
+
+            <!-- Revisão do Pedido -->
+            <section class="info-pedido-container revisar-pedido">
+                <h3>Revisar Pedido</h3>
+                <div class="pedido">
+                    <img class="produto-img">
+                    <p class="produto-nome"></p>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Finalizar Compra -->
+            <section class="finalizar-compra-container">
+                <div class="finalizar-compra"><h3>Finalizar Compra</h3></div>
+                <div class="total-pedido">
+                    <h4 class="preco"></h4>
+                    <p>Ao fazer seu pedido, você concorda com as Condições de Uso. Por favor, verifique
+                        a notificação de Privacidade, notificação de cookies e a notificação de anúncios baseados
+                        em seus interesses.
+                    </p>
+                </div>
+            </section>
         </div>
-        </div>
-    </div>
-    
-    <hr>
 
-    <div class="pagamento">
-      <h3>Método de Pagamento</h3>
-      <div class="metodo-pagamento">
-      <p>Pagamento com Mastercard 0000</p>
-      <div class="alterar">
-        <p>Alterar</p>
-      </div>
-      
-    </div>
-
-      
-  </div> 
-
-    <div class="revisar-pedido">
-        <h3>Revisar Pedido</h3>
-        <div class="pedido">
-            <img src="imgs/produto-cadeira.png">
-                <p>Cadeira Adirondack Dobrável para Áreas Externas, Assento de Pátio...</p>
-        </div>    
-    </div>
-
-    <hr>
-    
-    <div class="finalizar-compra-container">
-      <div class="finalizar-compra">
-        <h3>Finalizar Compra</h3>
-      </div>
-
-      <div class="total-pedido">
-        <h4>Total do Pedido: R$400,00</h4>
-        <p>Ao fazer seu pedido, você concorda com as Condições de Uso. Por favor, verifique
-           a notificação de Privacidade, notificação de cookies e a notificação de anúncios baseados
-           em seus interesses.</p>
+        <!-- Modal de Sucesso -->
+        <div id="successModal" class="modal">
+          <div class="modal-content">
+              <span class="close-btn">&times;</span>
+              <h2>Compra Realizada com Sucesso!</h2>
+              <p>Obrigado pela sua compra! Você será redirecionado para a página inicial em <span id="countdown">3</span> segundos.</p>
           </div>
-  </div>
-    
-  </div>
-
-    <div class="finalizar-compra-container">
-        <div class="finalizar-compra">
-          <h3>Finalizar Compra</h3>
         </div>
 
-        <div class="total-pedido">
-          <h4>Total do Pedido: R$400,00</h4>
-          <p>Ao fazer seu pedido, você concorda com as Condições de Uso. Por favor, verifique
-             a notificação de Privacidade, notificação de cookies e a notificação de anúncios baseados
-             em seus interesses.</p>
-            </div>
-    </div>
-  </div>
-    
-  <footer>
-    <h1 class="logo-rodape">CodeShop</h1>
+    </main>
 
-    
-    <div class="conteudo-rodape">
-
-      <div class="sobre-nos">
-        <h1>Sobre nós</h1>
-        <img src="imgs/mais1code.png">
-        <img src="imgs/algar-logo.svg">
+    <!-- Footer -->
+    <footer>
+      <h1 class="logo-rodape">CodeShop</h1>
+      <div class="conteudo-rodape">
+          <section class="sobre-nos">
+              <h1>Sobre nós</h1>
+              <img src="imgs/mais1code.png" alt="Mais1Code">
+              <img src="imgs/algar-logo.svg" alt="Algar">
+          </section>
+          <section class="minha-conta">
+              <h1>Minha conta</h1>
+              <h2>Meu perfil</h2>
+              <h2>Seja um revendedor</h2>
+          </section>
+          <section class="equipe">
+              <h1>Equipe</h1>
+              <h2>Desenvolvedores</h2>
+              <h2>Facilitadores</h2>
+          </section>
       </div>
-      
-      <div class="minha-conta">
-        <h1>Minha conta</h1>
-        <h2>Meu perfil</h2>
-        <h2>Seja um revendedor</h2>
-      </div>
-      
-      <div class="equipe">
-        <h1>Equipe</h1>
-        <h2>Desenvolvedores</h2>
-        <h2>Facilitadores</h2>
-      </div>
-
-    </div>
-
   </footer>
-    
-      <script src="carrinho.js"></script>
-    </body>
-</main>
+
+    <script src="carrinho.js"></script>
+</body>
+</html>
